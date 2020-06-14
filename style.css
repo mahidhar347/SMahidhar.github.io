@@ -1,0 +1,129 @@
+body
+{
+  background-image:url("https://images.unsplash.com/photo-1546706872-9c90b8d0c94f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-size:cover;
+  width:100%;
+  height:100%;
+}
+header ul
+{
+  color:white;
+  float:right;
+  list-style-type:none;
+  margin-top:20px;
+}
+header ul li
+{
+  display:inline-block;
+}
+header ul li a
+{
+  text-decoration:none;
+  padding:10px 20px;
+  color:white;
+  border:1px solid;
+}
+header ul li a:hover
+{
+  background-color:white;
+  color:black;
+  border:white;
+  transition:0.9s ease;
+}
+.main 
+{
+  max-width:1200px;
+  margin:auto;
+}
+header ul li.active a
+{
+  background-color:white;
+  color:black;
+  border:white;
+}
+section h1
+{
+  color:white;  
+  list-style-type:none;
+  margin-top:20px;
+}
+section h1
+{
+  
+}
+.signin
+{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 90px;
+    height: 400px;
+    margin-left: 180x;
+    
+}
+form
+{
+    width: 240px;
+    text-align: center;
+  font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: url(space-saving5.jpg);
+    background-size: cover;
+}
+input
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+input[type=button]
+{
+    border: none;
+    width: 190px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=button]:hover
+{
+    color: #fff;
+    background-color: black;
+}
+h2
+{
+    color: white;
+    
+}
+a
+{
+    color: yellow;
+    text-decoration: blink;
+}
+a:hover
+{
+    color: skyblue;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+::placeholder {
+    color:aliceblue;
+    opacity: 0.8; /* Firefox */
+}
